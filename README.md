@@ -22,6 +22,9 @@ LoRA freezes the pre-trained model weights and introduces trainable rank decompo
 
 1. Install the required Python packages:
 
+```
+pip install -r requirements.txt
+```
 
 
 ## Acknowledgements
