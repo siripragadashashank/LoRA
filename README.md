@@ -1,7 +1,7 @@
-# LoRA: Low-Rank Adaptation of Large Language Models
+# LoRA: Low-Rank Adaptation
 
 This repository contains the implementation of LoRA (Low-Rank Adaptation), a technique proposed by researchers at Microsoft Corporation for adapting large-scale language models to specific tasks efficiently. 
-LoRA reduces the number of trainable parameters and GPU memory requirements, making it feasible to adapt models like GPT-3 for various downstream tasks without significant computational overhead.
+LoRA reduces the number of trainable parameters and GPU memory requirements, making it feasible to adapt models like GPT-3 for various downstream tasks without significant computational overhead. In this repo, we will try to understand the effectiveness of LoRA on a simple 3-layer neural net.
 
 ## Abstract
 
@@ -15,7 +15,7 @@ LoRA freezes the pre-trained model weights and introduces trainable rank decompo
 
 - `README.md`: Overview of the repository and LoRA technique
 - `LoRA.ipynb`: Implementation of LoRA module in PyTorch
-- `SVD_and_Rank.ipynb`: Notebook to understand rank of matrix and SVD.
+- `SVD_and_Rank.ipynb`: Notebook to understand the rank of matrix and SVD.
 - `requirements.txt`: List of required Python packages
 
 ## Usage
